@@ -76,3 +76,13 @@ The trim_dataset.py will take the subset of the test set of your dataset and sto
 | LoCoNet | [Checkpoint](https://drive.google.com/file/d/10HvRqNO34QsJpZgQTMYZdIAW4A2kP5fw/view?usp=sharing) | UniTalk |
 | TalkNet | [Checkpoint](https://drive.google.com/file/d/1Uq8vp__7UywtdY0z5zz8QtcbEwFfXlNw/view?usp=sharing) | UniTalk |
 
+### Fined-tune UniTalk-pretrained TalkNCE on AVA:
+
+| Model           | Weight                                                                                        | 
+| --------------- | --------------------------------------------------------------------------------------------- |
+| 3h | [Checkpoint](https://drive.google.com/file/d/1z0hEK-QIPyXeBmatRSA6gyLiVM-Hur3_/view?usp=sharing) | 
+| 5h | [Checkpoint](https://drive.google.com/file/d/1FkUL625DoxwtFMXHQC2z_9YZCWZBK2vz/view?usp=sharing) | 
+| 10h | [Checkpoint](https://drive.google.com/file/d/1-yEjMVk_xztsYveLuLoA4kWfXR9JYyKW/view?usp=sharing) | 
+| 15h | [Checkpoint](https://drive.google.com/file/d/1riiHL3skpjKl1nk4OGnedz-ov-BKIHDt/view?usp=sharing) |
+| full AVA | [Checkpoint](https://drive.google.com/file/d/1BvRhVhyZwUv9-bsPskARTdMEPk5XyRYg/view?usp=sharing)|
+
