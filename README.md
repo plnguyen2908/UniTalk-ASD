@@ -74,4 +74,5 @@ The trim_dataset.py will take the subset of the test set of your dataset and sto
 | --------------- | --------------------------------------------------------------------------------------------- | ----------------- |
 | TalkNCE | [Checkpoint](https://drive.google.com/file/d/1eBc5xn7I32__cNPupYYx24AdwksUs-8F/view?usp=sharing) | UniTalk |
 | LoCoNet | [Checkpoint](https://drive.google.com/file/d/10HvRqNO34QsJpZgQTMYZdIAW4A2kP5fw/view?usp=sharing) | UniTalk |
+| TalkNet | [Checkpoint](https://drive.google.com/file/d/1Uq8vp__7UywtdY0z5zz8QtcbEwFfXlNw/view?usp=sharing) | UniTalk |
 
