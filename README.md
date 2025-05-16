@@ -58,7 +58,7 @@ python tool/get_ava_active_speaker_performance.py -g groundtruth.csv -p predicti
 
 Little notice, if you read the file, it requires you to put the label to SPEAKING_AUDIBLE in each row because as mentioned in our paper, the metric is calculated on the score sorted decreasingly.
 
-## Sub-categories evaluation
+## Sub-categories evaluation dataset
 - To create the evaluation dataset of sub-category, you can run the following command:
 ```
 python trim_dataset.py --path /path/to/your/dataset --new_path /path/to/store/your/new/evaluation/set --list sub_categories/test_<category>.csv
