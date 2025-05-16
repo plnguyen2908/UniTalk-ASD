@@ -61,7 +61,7 @@ Little notice, if you read the file, it requires you to put the label to SPEAKIN
 ## Sub-categories evaluation dataset
 - To create the evaluation dataset of sub-category, you can run the following command:
 ```
-python trim_dataset.py --path /path/to/your/dataset --new_path /path/to/store/your/new/evaluation/set --list sub_categories/test_<category>.csv
+python trim_dataset.py --path /path/to/your/dataset --new_path /path/to/store/your/new/evaluation/set --list sub_categories/test_(category).csv
 ```
 
 The trim_dataset.py will take the subset of the test set of your dataset and store it into a new path. It use the sub_categories/test_<category>.csv as guidance to take which videos.
