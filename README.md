@@ -65,3 +65,6 @@ python trim_dataset.py --path /path/to/your/dataset --new_path /path/to/store/yo
 ```
 
 The trim_dataset.py will take the subset of the test set of your dataset and store it into a new path. It use the sub_categories/test_<category>.csv as guidance to take which videos.
+
+## Pretrained weights:
+
