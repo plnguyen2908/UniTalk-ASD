@@ -4,6 +4,7 @@ import subprocess
 import shutil
 import zipfile
 import pandas as pd
+import time
 
 # 1) Parse args
 parser = argparse.ArgumentParser()
@@ -45,6 +46,7 @@ columns = [
     "label_id", "instance_id"
 ]
 
+start = time.time()
 # 5) Process each split separately
 for split in ["train", "val"]:
     df_list = []
@@ -96,4 +98,5 @@ for split in ["train", "val"]:
         merged.to_csv(out_merged, index=False)
         print(f"Wrote merged CSV for {split}: {out_merged}")
 
-    break
+end = time.time()
+print(f"The whole script runs in {end - start} seconds")
