@@ -39,13 +39,13 @@ root/
 
 ## Exploring the dataset
 - Inside the csv folder, there are 2 csv files for training and testing. In each csv files, each row represents a face, and there are 10 columns where:
-  - video_id: the id of the video
-  - frame_timestamp: the timestamp of the face in video_id
-  - entity_box_x1, entity_box_y1, entity_box_x2, entity_box_y2: the relative coordinate of the bounding box of the face
-  - label: SPEAKING_AUDIBLE or NOT_SPEAKING
-  - entity_id: the id of the face tracks (a set of consecutive faces of the same person) in the format video_id:number
-  - label_id: 1 or 0
-  - instance_id: consecutive faces of an entity_id which are always not speaking are speaking. It is in the format entity_id:number
+  - **video_id**: the id of the video
+  - **frame_timestamp**: the timestamp of the face in video_id
+  - **entity_box_x1**, **entity_box_y1**, **entity_box_x2**, **entity_box_y2**: the relative coordinate of the bounding box of the face
+  - **label**: SPEAKING_AUDIBLE or NOT_SPEAKING
+  - **entity_id**: the id of the face tracks (a set of consecutive faces of the same person) in the format video_id:number
+  - **label_id**: 1 or 0
+  - **instance_id**: consecutive faces of an entity_id which are always not speaking are speaking. It is in the format entity_id:number
 - Inside clips_audios, there are 2 folders which are train and val splits. In each split, there will be a list of video_id folder which contains the audio file (in form of wav) for each entity_id.
 - Inside clips_videos, there are 2 folders which are train and val splits. In each split, there will be a list of video_id folder in which each contains a list of entity_id folder. In each entity_id folder, there are images of the face of that entity_id person.
 - We sample the video at 25 fps. So, if you want to use other cues to support the face prediction, we would recommend checking the video_list folder which contains the link to the list of videos we use. You can download it and sample at 25 fps.
