@@ -84,6 +84,16 @@ dataset = load_dataset("plnguyen2908/UniTalk", split = "train|val", trust_remote
 
 This method is more memory-efficient. However, its drawback is speed (around 20-40 hours to read all instances of face tracks) and less flexible than the first method.
 
+For each instance, it will return:
+
+{
+    "entity_id": the id of the face track
+    "images": list of images of face crops of the face_track
+    "audio": the audio that has been read from wavfile.read
+    "frame_timestamp": time of each face crop in the video
+    "label_id": the label of each face (0 or 1)
+}
+
 ## Pretrained weights:
 
 ### Top performing models:
