@@ -73,6 +73,17 @@ Since ASC and ASDNet use different dataset's structure, you can use the file con
 python convert_to_ASC.py --source /path/to/your/data --destination /path/to/new/dataset
 ```
 
+## Loading each entity's id information from Huggging Face
+
+We also provide a way to load the information of each entity_id (i.e, face track) through the hub of huggingface. However, this method is less flexible and cannot be used for models that use multiple face tracks like ASDNet or LoCoNet. You just need to run:
+
+```
+from datasets import load_dataset
+dataset = load_dataset("plnguyen2908/UniTalk", split = "train|val", trust_remote_code=True)
+```
+
+This method is more memory-efficient. However, its drawback is speed (around 20-40 hours to read all instances of face tracks) and less flexible than the first method.
+
 ## Pretrained weights:
 
 ### Top performing models:
