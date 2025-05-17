@@ -86,6 +86,7 @@ This method is more memory-efficient. However, its drawback is speed (around 20-
 
 For each instance, it will return:
 
+```
 {
     "entity_id": the id of the face track
     "images": list of images of face crops of the face_track
@@ -93,6 +94,7 @@ For each instance, it will return:
     "frame_timestamp": time of each face crop in the video
     "label_id": the label of each face (0 or 1)
 }
+```
 
 ## Pretrained weights:
 
