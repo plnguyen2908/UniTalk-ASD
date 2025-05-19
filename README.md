@@ -10,7 +10,7 @@ To download the dataset, you just need to excute the following file (installatio
 python download_dataset.py --save_path /path/to/the/dataset
 ```
 
-where --save_path is the path to the folder where you want to store the dataset (that path doesn't have to exist, we will create one for you). For your information, it takes 834.38 seconds to download everything on a macbook air m4. After downloading, you will get the following dataset's structure:
+where --save_path is the path to the folder where you want to store the dataset (that path doesn't have to exist, we will create one for you). For your information, it takes 834.38 seconds to download everything on a macbook air m4. Also, you would need around 100-200gb for this dataset. After downloading, you will get the following dataset's structure:
 
 ```
 root/
