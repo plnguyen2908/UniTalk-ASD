@@ -4,7 +4,7 @@
 
 ## Downloading the dataset:
 
-To download the dataset, you just need to excute the following file (installation requirement: pandas)
+To download the dataset, you just need to excute the following file (installation requirement: python, pandas, and wget)
 
 ```
 python download_dataset.py --save_path /path/to/the/dataset
