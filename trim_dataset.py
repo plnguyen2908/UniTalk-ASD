@@ -44,7 +44,7 @@ for vid_name in os.listdir(f"{path}/clips_audios/val"):
         shutil.copytree(f"{path}/clips_audios/val/{vid_name}", f"{new_path}/clips_audios/val/{vid_name}")
         shutil.copytree(f"{path}/clips_videos/val/{vid_name}", f"{new_path}/clips_videos/val/{vid_name}")
 
-df_half.to_csv(f"{new_path}/csv/val_orig.csv")
+df_half.to_csv(f"{new_path}/csv/val_orig.csv", index=False)
 
 
 # with open(f"{new_path}/csv/val_loader.csv", 'w') as f:
