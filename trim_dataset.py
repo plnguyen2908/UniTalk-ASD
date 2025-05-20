@@ -47,10 +47,12 @@ for vid_name in os.listdir(f"{path}/clips_audios/val"):
 df_half.to_csv(f"{new_path}/csv/val_orig.csv")
 
 
-with open(f"{new_path}/csv/val_loader.csv", 'w') as f:
-    with open(f"{path}/csv/val_loader.csv", "r") as g:
-        for row in g:
-            l = row.split('\t')
-            vid_name = l[0][:11]
-            if vid_name in half_ids:
-                f.write(row)
+# with open(f"{new_path}/csv/val_loader.csv", 'w') as f:
+#     with open(f"{path}/csv/val_loader.csv", "r") as g:
+#         for row in g:
+#             l = row.split('\t')
+#             vid_name = l[0][:11]
+#             if vid_name in half_ids:
+#                 f.write(row)
+
+print("done")
